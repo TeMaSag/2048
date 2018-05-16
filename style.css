@@ -1,0 +1,154 @@
+body {
+    position:fixed;
+    left:40%;
+    top:30%; 
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 14px; 
+    background:seagreen;}
+    
+    #Game {
+    position: fixed;
+    background: rgb(245, 7, 7);
+    padding:10px; }
+
+    .cell {        
+    display: block;
+    background: mediumblue; 
+    border-color: mediumspringgreen;
+    width: 80px;
+    height: 80px;
+    float:left; 
+    border: 4px solid black;
+    color:white;}
+    
+    .clearfix {
+    height: 0px;
+    clear:both;}
+    
+    span { 
+    display: block;
+    box-sizing: border-box;
+    font-size: 50px;
+    padding:20px; 
+    width: 100%;
+    height: 100%;
+    text-align:center;
+    font-weight: bold;}
+    
+    button.button { 
+    color: #fff; /* цвет текста */ 
+    background: rgb(212,75,56); /* фон кнопки */ 
+    width:150px;
+    height:30px;
+    margin:10px;
+  
+    } 
+    #scoretext,
+    #points {
+        text-align: center;
+        color:white;
+        
+    }
+
+    #score {
+        margin:10px;
+        border: 1px solid white;
+        
+    }
+   
+    
+   
+    button.button:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
+    
+    button.knopka:active { background: rgb(152,15,0); } /* при нажатии*/
+
+
+    #score {
+        
+        min-width: 100px;
+        height: 35px;
+        background: rgb(212,75,56);
+        margin-bottom: 10px;
+        float: right;
+    }
+    
+    .cell-2 {     
+    background-color: bisque;}
+    
+    .cell-4 {      
+    background-color: rgba(219, 201, 179, 0.815);}
+
+    .cell-2,
+    .cell-4{
+        color:black; }
+    
+    
+    .cell-8{
+    
+    background-color:rgba(141, 104, 61, 0.548);}
+    
+    .cell-16{
+    
+    background-color:rgba(202, 131, 51, 0.548);}
+    
+    .cell-32{
+     
+    background-color:rgba(201, 50, 50, 0.993);}
+
+    .cell-64{
+     background-color:rgba(255, 0, 0, 0.993);
+    }
+
+    .cell-16,
+    .cell-32,
+    .cell-64 {
+        font-size: 45px;
+        padding:15px; 
+        padding-top:20px;
+    }
+
+    .cell-128 {
+        background-color:rgba(255, 238, 5, 0.993);
+    }
+    
+    .cell-256{
+        background-color:rgba(20, 235, 56, 0.993);
+    }
+
+    .cell-512{
+        background-color:rgba(34, 210, 241, 0.993);
+    }
+
+    .cell-128,
+    .cell-256,
+    .cell-512 {
+        font-size: 40px;
+        padding:10px; 
+        padding-top:20px;
+
+    }
+
+    .cell-1024{
+        background-color:rgba(104, 104, 114, 0.993);
+    }
+
+    .cell-2048{
+        background-color:rgb(167, 233, 13);
+    }
+
+    .cell-4096{
+        background-color:rgba(255, 31, 31, 0.397);
+    }
+
+    .cell-1024,
+    .cell-2048,
+    .cell-4096 {
+        font-size: 30px;
+        padding:5px; 
+        padding-top:20px;
+    }
+
+
+    
+   
